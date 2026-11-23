@@ -1,0 +1,17 @@
+# Dependências
+node_modules/
+
+# Segredos (NUNCA versionar)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Banco de desenvolvimento local
+.devdb/
+
+# Sistema
+.DS_Store
+Thumbs.db

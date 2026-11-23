@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Emblema Administração Loja X">
+  <title>Administração Loja X</title>
+  <defs>
+    <linearGradient id="ouro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6e2a1"/>
+      <stop offset="0.45" stop-color="#d9b355"/>
+      <stop offset="1" stop-color="#8f6b14"/>
+    </linearGradient>
+    <radialGradient id="azul" cx="0.5" cy="0.38" r="0.75">
+      <stop offset="0" stop-color="#5c97d6"/>
+      <stop offset="0.55" stop-color="#2b5fa5"/>
+      <stop offset="1" stop-color="#12305f"/>
+    </radialGradient>
+    <linearGradient id="faixa" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3d888"/>
+      <stop offset="0.5" stop-color="#d3a83f"/>
+      <stop offset="1" stop-color="#9a7420"/>
+    </linearGradient>
+    <path id="arco-meio" d="M 62 246 A 196 196 0 0 1 450 246"/>
+    <path id="arco-sup" d="M 34 246 A 224 224 0 0 1 478 246"/>
+  </defs>
+
+  <!-- Medalhão dourado -->
+  <circle cx="256" cy="246" r="250" fill="url(#ouro)" stroke="#7a5a10" stroke-width="3"/>
+  <circle cx="256" cy="246" r="222" fill="none" stroke="#0f2c5c" stroke-width="2" opacity="0.35"/>
+
+  <!-- Texto superior no aro dourado -->
+  <text font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#2d2306" letter-spacing="3">
+    <textPath href="#arco-sup" startOffset="50%" text-anchor="middle">ADMINISTRAÇÃO</textPath>
+  </text>
+
+  <!-- Disco azul -->
+  <circle cx="256" cy="246" r="212" fill="url(#azul)" stroke="#8f6b14" stroke-width="5"/>
+  <circle cx="256" cy="246" r="199" fill="none" stroke="#f3d888" stroke-width="1.6" opacity="0.8"/>
+
+  <!-- Texto interno superior -->
+  <text font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#ffffff" letter-spacing="2.2">
+    <textPath href="#arco-meio" startOffset="50%" text-anchor="middle">SISTEMA DE GESTÃO</textPath>
+  </text>
+
+  <!-- Coroa de louros estilizada -->
+  <g stroke="#2e7d32" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M 122 348 Q 74 246 140 118"/>
+    <path d="M 390 348 Q 438 246 372 118"/>
+  </g>
+  <g fill="#3f9444">
+    <ellipse cx="112" cy="330" rx="17" ry="7" transform="rotate(-65 112 330)"/>
+    <ellipse cx="97"  cy="296" rx="17" ry="7" transform="rotate(-38 97 296)"/>
+    <ellipse cx="90"  cy="258" rx="17" ry="7" transform="rotate(-12 90 258)"/>
+    <ellipse cx="94"  cy="220" rx="17" ry="7" transform="rotate(14 94 220)"/>
+    <ellipse cx="106" cy="184" rx="17" ry="7" transform="rotate(38 106 184)"/>
+    <ellipse cx="127" cy="150" rx="17" ry="7" transform="rotate(62 127 150)"/>
+    <ellipse cx="155" cy="124" rx="16" ry="7" transform="rotate(82 155 124)"/>
+    <g transform="translate(512,0) scale(-1,1)">
+      <ellipse cx="112" cy="330" rx="17" ry="7" transform="rotate(-65 112 330)"/>
+      <ellipse cx="97"  cy="296" rx="17" ry="7" transform="rotate(-38 97 296)"/>
+      <ellipse cx="90"  cy="258" rx="17" ry="7" transform="rotate(-12 90 258)"/>
+      <ellipse cx="94"  cy="220" rx="17" ry="7" transform="rotate(14 94 220)"/>
+      <ellipse cx="106" cy="184" rx="17" ry="7" transform="rotate(38 106 184)"/>
+      <ellipse cx="127" cy="150" rx="17" ry="7" transform="rotate(62 127 150)"/>
+      <ellipse cx="155" cy="124" rx="16" ry="7" transform="rotate(82 155 124)"/>
+    </g>
+  </g>
+
+  <!-- Estrela -->
+  <path d="M 256 96 l 8 16 18 2 -13 12 4 18 -17 -9 -17 9 4 -18 -13 -12 18 -2 z" fill="url(#ouro)" stroke="#8f6b14" stroke-width="2"/>
+
+  <!-- Escudo central -->
+  <path d="M 256 130
+           C 296 142 332 146 356 144
+           C 362 204 350 292 256 356
+           C 162 292 150 204 156 144
+           C 180 146 216 142 256 130 Z"
+        fill="#ffffff" stroke="url(#ouro)" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M 256 144
+           C 290 154 320 158 342 156
+           C 347 208 336 284 256 340
+           C 176 284 165 208 170 156
+           C 192 158 222 154 256 144 Z"
+        fill="#fdfcf8" stroke="#d9b355" stroke-width="2"/>
+
+  <!-- Monograma LX -->
+  <text x="256" y="272" text-anchor="middle" font-family="Georgia, serif" font-size="88" font-weight="bold" fill="#12305f" stroke="#8f6b14" stroke-width="2.2" letter-spacing="4">LX</text>
+
+  <!-- Faixa inferior -->
+  <g>
+    <path d="M 74 404 L 44 452 62 466 96 424 Z" fill="#9a7420"/>
+    <path d="M 438 404 L 468 452 450 466 416 424 Z" fill="#9a7420"/>
+    <path d="M 78 398 Q 256 376 434 398 L 434 446 Q 256 470 78 446 Z"
+          fill="url(#faixa)" stroke="#8f6b14" stroke-width="2.5"/>
+    <text x="256" y="424" text-anchor="middle" font-family="Georgia, serif" font-size="27" font-weight="bold" fill="#2d2306" letter-spacing="2.5">LOJA X</text>
+    <text x="256" y="444" text-anchor="middle" font-family="Georgia, serif" font-size="11.5" font-weight="bold" fill="#3d3009" letter-spacing="1.2">ADMINISTRAÇÃO E GESTÃO</text>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+# ============================================================
+# Publicação no Render (https://render.com) — plano gratuito.
+# ------------------------------------------------------------
+# Como usar: no Render, escolha "New > Blueprint", aponte para
+# este repositório e confirme. O Render cria o serviço já com
+# as configurações abaixo. Ele vai pedir apenas o valor de
+# DATABASE_URL (a URI do Neon) — cole a mesma do arquivo .env.
+#
+# O JWT_SECRET é gerado automaticamente e guardado com segurança
+# pelo Render (não fica neste arquivo).
+# ============================================================
+services:
+  - type: web
+    name: administracao-loja-x
+    runtime: node
+    plan: free
+    region: ohio
+    branch: main
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: TRUST_PROXY
+        value: "1"
+      - key: JWT_SECRET
+        generateValue: true
+      # Será solicitado no momento da criação (segredo):
+      - key: DATABASE_URL
+        sync: false
